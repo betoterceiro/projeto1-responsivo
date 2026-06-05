@@ -85,12 +85,18 @@ section {
 }
 
 @media screen and (max-width: 900px) {
+   
+   body {
+    width: auto;
+    height: auto;
+   }
+   
+   
     main {
-        width: 100%;
-        height: 100%;
+       
         display: flex;
         flex-direction: column-reverse;
-        text-align: center;
+        
         
     }
 
@@ -107,9 +113,8 @@ section {
 
         font-size: 12px;
         line-height: 18px;
-        position: absolute;
-        right: 15px;
-        margin-top: 23px;
+        
+        margin: 17px 15px 76px 284px;
 
 
 
@@ -119,16 +124,15 @@ section {
 
     }
 
-section {
-    margin: 124px 57px 0 57px;
-}
+
 
     h1 {
         width: 278px;
         font-size: 30px;
         line-height: 30px;
-        height: 60px;
-        margin: 75px 57px 29px 57px;
+        height: auto;
+        margin: 83px 57px 29px 57px;
+        text-align: center;
         
 
 
@@ -139,25 +143,35 @@ section {
     p {
         font-size: 18px;
         line-height: 33px;
-        margin: 29px 43px;
+        margin: 29px 43px 26px 43px;
         letter-spacing: 0.5px;
         width: 304px;
         height: 165px;
+        text-align: center;
 
     }
 
-    .botao-main {
-        margin: 26px 96px 59px 120px;
+    
+        
         
     
 
 
-    }
+    
 
     .img-logo {
         width: 312px;
         height: 288px;
         margin: 59px 39px 22px 81px;
+        
+
+    }
+    .botao-main {
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 1px;
+        margin: 26px 100px 59px 106px;
+        padding: 28px;
         
 
     }
