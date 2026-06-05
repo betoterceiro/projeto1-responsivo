@@ -170,9 +170,10 @@ section {
 
     .img-logo {
        
-        margin: 59px 39px 22px 76px;
+        margin: 0 auto;
        width: 312px;
        height: 288px;
+       display: block;
        
         
 
