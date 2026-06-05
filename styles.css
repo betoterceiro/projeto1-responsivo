@@ -117,7 +117,8 @@ main {
         line-height: 18px;
         width: 91px;
         height: 31px;
-        margin: 0 auto;
+        margin-left: 284px;
+
 
 
 
@@ -153,6 +154,7 @@ main {
         letter-spacing: 0.5px;
         width: auto;
         text-align: center;
+        font-weight: 400px;
 
 
 
